@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
+body{
+    background-color: white;
+} 
+header{
+    text-align: center;
+}
+
+.text-main{
+    text-align: center;
+    color: rgb(251, 255, 0);
+    font-size: 60px; 
+    /* размер */
+    margin-top: 70px;
+    /* отступ с верху */
+    margin-bottom: 40px;
+    /* отступ с низу */
+    font-family: "Roboto"
+}
+.container{
+    margin: 0 auto;
+    max-width: 100%;
+}
+.box{
+    align-self: center;
+    background-color: white;
+    height: 350px;
+    width: 30%;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    row-gap: 20px;
+}
+.box-mane{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-width: 1100px;
+    flex-wrap: wrap;
+}
+.number{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 auto;
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+    color:rgb(255, 0, 212);
+}
+.text-box{
+    font-family: "Montserrat", sans-serif;
+    width: 80%;
+    text-align: center;
+}
+.text-box2{
+    font-size: 13px;
+}
+
+.line{
+    height: 2px;
+    width: 90px;
+    background-color: rgb(255, 0, 106);
+    margin-top: -35px;
+}
+.header{
+    width: 100%;
+}
+.freepik{
+    color: rgb(255, 251, 0);
+    border-left: 10px;
+}
+.links{
+    color: rgb(0, 255, 234);
+}
+.qwer{
+    font-size: 18px;
+    color: rgb(251, 255, 0);
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+.text-footer{
+    color: rgb(0, 255, 55);
+}
+.footer{
+    align-self: flex-end;
+    display: flex;
+    background-color: rgb(0, 23, 155);
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+}
+
+
+@media only screen and (max-width:840px) {
+    .box {
+        width:40%;
+        
+    }
+
+    footer {
+        width: 100%;
+    }
+    .box-mane {
+        
+        display: flex;
+      
+        flex-wrap: wrap;
+    }
+
+    .text-h1 {
+        font-size: 40px;
+       
+      }
+  
+   
+}
+@media only screen and (max-width:600px) {
+    .box {
+        width: 70%;
+     
+    }
+    footer {
+        width: 100%;
+    }
+    .box-mane {
+        flex-flow: column;
+    }
+    .box-mane2 {
+        flex-flow: column;
+    }
+
+    .text-h1 {
+        font-size: 30px;
+       
+      }
+      .text-footer {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:400px) {
+   
+    footer {
+        width: 100%;
+    }
+
+    .text-footer {
+        font-size: 10px;
+    }
+    .text-h1 {
+        font-size: 20px;
+       
+      }
+}
+@media only screen and (max-width:300px) {
+   
+    footer {
+        width: 100%;
+    }
+
+    .text-footer {
+        font-size: 10px;
+    }
+    .text-h1 {
+        font-size: 20px;
+       
+      }
+}
