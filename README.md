@@ -1,0 +1,1 @@
+# mashidazho.github.io
